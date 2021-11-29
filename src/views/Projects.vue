@@ -14,3 +14,20 @@ export default {
   }
 }
 </script>
+
+
+<style lang="scss" scoped>
+
+  $background: #212121;
+ 
+  .projects {
+   
+    width: 85vw;
+    min-width: 20vw;
+    height: 90vh;
+    background:  $background;
+    margin:  auto 0;
+    
+   
+}
+</style>
