@@ -3,7 +3,7 @@
 
     <div class="card">    
         
-      <p>Projeto: <a :href="urlLink"> {{title}}</a></p>
+      <p>Projeto: <a :href="urlLink" target="_blank"> {{title}}</a></p>
       <p>Descrição: {{description}}</p>
     </div>
 
@@ -30,11 +30,18 @@ export default {
         height: 18rem;
         border-radius: 1rem;
         background-color: #212121;
+        transition: .3s ease-out;
         a {
           text-decoration: none;
           color: #554BFF;
         }
+
+        &:hover{
+          transform: scale(1.1);
+        }
     }
+
+    
     
 
     @media (max-width: 830px) {
