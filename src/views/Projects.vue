@@ -1,16 +1,23 @@
 <template>
-  <div class="projects">
-    <h1>projetos aq</h1>
-  </div>
+  <section id="projects">
+      <h1>Meus projetos</h1>
+    <Project />
+    
+    
+  </section>
 </template>
 
 <script>
 
-
+import Project from '../components/Project.vue'
 export default {
   name: 'Projects',
-  components: {
-    
+  components: { 
+    Project 
+  },
+
+  methods:{
+
   }
 }
 </script>
@@ -18,16 +25,28 @@ export default {
 
 <style lang="scss" scoped>
 
-  $background: #212121;
+  h1 {
+    font-size: 3rem;
+    background: -webkit-linear-gradient(#2E34EA, #554BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 1rem auto 0;
+    text-align: center;
+  }
  
-  .projects {
-   
-    width: 85vw;
-    min-width: 20vw;
-    height: 90vh;
-    background:  $background;
-    margin:  auto 0;
+  #projects {
+    width: 100%;
+    background-color: #181818;
     
-   
-}
+  }
+
+   @media (max-width: 555px) {
+    
+     h1 {
+    font-size: 2.5rem;
+    
+  }
+    
+  }
+
 </style>

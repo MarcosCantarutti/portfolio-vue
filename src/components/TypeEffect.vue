@@ -15,7 +15,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['Olá! Tudo bem?', 'Meu nome é Marcos Cantarutti.', 'Este é meu portfólio.', 'Aproveite =) !'],
+        typeArray: ['Marcos Cantarutti.', 'Dev front-end Junior.'],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 1000,
@@ -73,7 +73,10 @@ import { setTimeout } from 'timers';
     font-size: 5rem;
     font-weight: bold;
     span.typed-text {
-      color: #fff;
+    
+    background: -webkit-linear-gradient(#2E34EA, #554BFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     }
     span.cursor {
       display: inline-block;
@@ -90,5 +93,39 @@ import { setTimeout } from 'timers';
     49% { background-color: #fff; }
     50% { background-color: transparent; }
     99% { background-color: transparent; }
+  }
+
+  @media (max-width: 1230px) {
+    h1 {
+    font-size: 3rem;
+    }
+  }
+  @media (max-width: 830px) {
+    .container {
+      margin-left: 3rem;
+      
+    }
+    h1 {
+    font-size: 2.5rem;
+    }
+  }
+  @media (max-width: 600px) {
+
+    .container {
+      margin-left: 2rem;
+      
+    }
+
+
+    h1 {
+    font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 550px) {
+
+    h1 {
+    font-size: 1.6rem;
+    }
   }
 </style>

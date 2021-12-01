@@ -11,6 +11,9 @@
 </template>
 
 <style lang="scss">
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 $background: #181818;
 $background-routers: #212121;
 
@@ -25,15 +28,22 @@ html {
 }
 
 body {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: $background;
+  overflow-x: hidden;
+  overflow-y: hidden;
   
+}
+
+h1, h2, h3 {
+  font-weight: 700;
 }
 
 #app {
   display: flex;
+
 }
 
 
@@ -44,14 +54,13 @@ body {
   background: $background-routers;
   display: flex;
   padding: 5rem;
-  margin-right: 3rem;
+  
   -webkit-box-shadow: inset -1px 3px 8px 5px #554BFF, 2px 5px 16px 0px #554BFF, 1px 1px 1px 1px #554BFF; 
   box-shadow: inset -1px 3px 8px 5px #554BFF, 2px 5px 16px 0px #554BFF, 1px 1px 1px 1px #554BFF;
  
- 
   a {
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #FEFBFB;
 
@@ -70,6 +79,18 @@ body {
     align-items: center;
     justify-content: center;
     
+  }
+}
+
+@media (max-width: 800px) {
+  #nav {
+    padding: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #nav {
+    padding: 3rem;
   }
 }
 </style>
