@@ -81,7 +81,7 @@ export default {
     .grid{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 3rem;
+    grid-gap: 2rem;
     padding: 1rem;
     margin: 0 auto;
     }

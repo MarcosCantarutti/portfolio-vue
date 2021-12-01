@@ -87,13 +87,16 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+ 
   }
 
   
 
   .container-about {
     width: 100vw;
-    height: 100%; 
+    height: 90vh; 
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../.././public/img/bg-home.jpg) center;
+    
 }
 
 .container-text {
@@ -112,7 +115,7 @@ export default {
     }
 
     p {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       text-align: left;
       letter-spacing: 0.1rem;
     }

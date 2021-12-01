@@ -27,7 +27,7 @@ export default {
         font-size: 1.5rem;
         padding: 1.5rem;
         width: 40rem;
-        height: 20rem;
+        height: 18rem;
         border-radius: 1rem;
         background-color: #212121;
         a {

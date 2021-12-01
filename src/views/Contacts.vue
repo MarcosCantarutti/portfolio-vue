@@ -128,8 +128,20 @@ export default {
       }
     }
 
+     @media (max-width: 880px) {
+       .contacts-container {
+        margin: 10rem auto;
+       }
+     }
+
     @media (max-width: 690px) {
+      #contacts{
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
       .contacts-container {
+        margin: 10rem auto;
         padding: 5rem;
         width: 30rem;
         height: 50rem;
@@ -149,43 +161,5 @@ export default {
      
     }
 
-  @media (max-width: 550px) {
-      .contacts-container {
-        padding: 5rem;
-        width: 25rem;
-        height: 45rem;
-
-        
-        button {
-          padding: 1.2rem;
-          font-size: 1.2rem;
-        }
-        button a{
-          font-size: 1.2rem;
-          
-        }
-      }
-     
-    }
-  
-
-   @media (max-width: 485px) {
-      .contacts-container {
-        padding: 5rem;
-        width: 20rem;
-        height: 40rem;
-
-        
-        button {
-          padding: 1rem;
-          font-size: 1rem;
-        }
-        button a{
-          font-size: 1rem;
-          
-        }
-      }
-     
-    }
   }
 </style>

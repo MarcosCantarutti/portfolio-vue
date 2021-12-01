@@ -41,6 +41,9 @@ export default {
   }
 
    @media (max-width: 800px) {
+     h1 {
+       margin: 0.5 auto 0;
+     }
     #projects {
       height: 100%;
     margin: 0 auto;
