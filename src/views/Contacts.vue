@@ -25,7 +25,7 @@
           </li>
         </ul>
         <button type="submit">
-          <a href="./MarcosCantarutti.pdf" download>Download CV</a>
+          <a href="./src./assets/MarcosCantarutti.pdf" download>Download CV</a>
         </button>
         
         
