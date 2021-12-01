@@ -82,15 +82,36 @@ h1, h2, h3 {
   }
 }
 
-@media (max-width: 800px) {
-  #nav {
-    padding: 3rem;
-  }
-}
 
-@media (max-width: 600px) {
-  #nav {
-    padding: 3rem;
+
+@media (max-width: 900px) {
+
+  body {
+    overflow-y: visible;
   }
+
+
+  #app {
+  display: flex;
+  flex-direction: column;
+}
+  #nav {
+    padding: 1rem;
+    height: 10rem;
+    width: 100vw;
+    max-width: 100%;
+
+  a {
+    font-size: 2rem;
+  }
+
+    .menu {
+      flex-direction: row;
+    padding: 1rem;
+    gap: 5rem;
+  }
+  }
+
+  
 }
 </style>

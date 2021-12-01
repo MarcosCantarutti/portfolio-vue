@@ -102,30 +102,12 @@ import { setTimeout } from 'timers';
   }
   @media (max-width: 830px) {
     .container {
-      margin-left: 3rem;
+      margin: 5rem;
       
     }
     h1 {
     font-size: 2.5rem;
     }
   }
-  @media (max-width: 600px) {
 
-    .container {
-      margin-left: 2rem;
-      
-    }
-
-
-    h1 {
-    font-size: 2rem;
-    }
-  }
-
-  @media (max-width: 550px) {
-
-    h1 {
-    font-size: 1.6rem;
-    }
-  }
 </style>

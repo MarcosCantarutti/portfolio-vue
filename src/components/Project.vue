@@ -131,11 +131,11 @@ export default {
     @media (max-width: 520px) {
     
     .grid{
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-template-rows: auto;
     grid-gap: 1rem;
-    padding: 0.5rem;
-    
+    padding: 1rem;
+    margin: 0 auto;
     }
     
   }

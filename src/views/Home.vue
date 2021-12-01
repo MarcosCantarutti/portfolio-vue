@@ -79,58 +79,48 @@ export default {
 
   }
 
-  @media (max-width: 1230px) {
-     
-    .container-text {
-    h2 {
-      font-size: 2.5rem;
-      color: #554BFF; 
-    }
-
-    p {
-        font-size: 1.6rem;
-      }
-    }
-  }
-
   @media (max-width: 830px) {
-    .container-text {
+  .about {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+
+  .container-about {
+    width: 100vw;
+    height: 100%; 
+}
+
+.container-text {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content: left;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem 5rem;
+
     h2 {
       font-size: 2rem;
-      color: #554BFF; 
+      color: #554BFF;
     }
-
-    margin: 10rem 3rem;
 
     p {
-        font-size: 1.4rem;
-      }
-    }
-  }
-
-  @media (max-width: 600px) {
-    .container-text {
-    h2 {
-      font-size: 2rem;
-      color: #554BFF; 
+      font-size: 1.6rem;
+      text-align: left;
+      letter-spacing: 0.1rem;
     }
 
-    margin: 15rem 2rem;
+  }    
 
-    p {
-        font-size: 1.3rem;
-      }
-    }
-  }
 
-  @media (max-width: 490px) {
-   
-    .container-text {
-    p {
-        font-size: 1.2rem;
-      }
-    }
-  }
+}
 
   
   
