@@ -37,15 +37,23 @@ export default {
   #projects {
     width: 100%;
     background-color: #181818;
-    
+   
   }
 
-   @media (max-width: 555px) {
-    
+   @media (max-width: 800px) {
+    #projects {
+      height: 100%;
+    margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 1rem;
+  }
+
      h1 {
     font-size: 2.5rem;
-    
-  }
+    }
     
   }
 

@@ -76,64 +76,12 @@ export default {
     padding: 5rem;
   }
 
-  @media (max-width: 1575px) {
+    @media (max-width: 900px) {
     
     .grid{
-    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    grid-gap: 2rem;
-    padding: 2rem;
-    }
-  }
-
-  @media (max-width: 1230px) {
-    
-    .grid{
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 2rem;
-    padding: 2rem;
-    }
-  }
-
-  @media (max-width: 890px) {
-    
-    .grid{
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 2rem;
-    padding: 2rem;
-    }
-  }
-
-   @media (max-width: 655px) {
-    
-    .grid{
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
-    padding: 2rem;
-    }
-  }
-
-   @media (max-width: 555px) {
-    
-    .grid{
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 1.5rem;
-    padding: 1rem;
-    
-    }
-
-   }
-
-    @media (max-width: 520px) {
-    
-    .grid{
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     padding: 1rem;
     margin: 0 auto;
     }

@@ -35,77 +35,16 @@ export default {
           color: #554BFF;
         }
     }
-    @media (max-width: 1575px) {
-      .card{
-        font-size: 1.3rem;
-        padding: 1.3rem;
-        width: 30rem;
-        height: 14rem;
-      }
-    }
-
-    @media (max-width: 1230px) {
-      .card{
-        font-size: 1.3rem;
-        padding: 1.3rem;
-        width: 30rem;
-        height: 15rem;
-      }
-    }
-
-    @media (max-width: 1000px) {
-      .card{
-        font-size: 1.2rem;
-        padding: 1.3rem;
-        width: 30rem;
-        height: 15rem;
-      }
-    }
+    
 
     @media (max-width: 830px) {
       .card{
         font-size: 1rem;
         padding: 1.2rem;
-        width: 20rem;
-        height: 12rem;
-      }
-    }
-
-    @media (max-width: 655px) {
-      .card{
-        font-size: 1.2rem;
-        padding: 1.2rem;
-        width: 20rem;
-        height: 15rem;
-      }
-    }
-
-     @media (max-width: 655px) {
-      .card{
-        font-size: 1.1rem;
-        padding: 1.2rem;
         width: 15rem;
-        height: 20rem;
+        height: 18rem;
       }
     }
 
-    @media (max-width: 555px) {
-
-      .card{
-        font-size: 0.9rem;
-        padding: 1.2rem;
-        width: 15rem;
-        height: 15rem;
-      }
-    }
-
-    @media (max-width: 520px) {
-
-      .card{
-        font-size: 0.9rem;
-        padding: 1.2rem;
-        width: 14rem;
-        height: 16rem;
-      }
-    }
+  
 </style>
