@@ -81,8 +81,10 @@ export default {
 
   }
 
-  @media (max-width: 800px) {
-
+  @media (max-width: 900px) {
+    .about {
+      height: 100vh;
+    }
     .container-text {
       margin: 5rem 3rem;
       p{

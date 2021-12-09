@@ -62,5 +62,13 @@ export default {
       }
     }
 
+    @media (max-width: 430px) {
+      .card{
+        width: 16rem;
+        height: 20rem;
+        padding: 1rem;
+      }
+    }
+
   
 </style>

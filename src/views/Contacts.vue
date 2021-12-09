@@ -143,7 +143,7 @@ export default {
       #contacts{
       width: 100%;
       height: auto;
-      margin: 0 auto;
+      margin: 0;
     }
       .contacts-container {
         margin: 10rem auto;
