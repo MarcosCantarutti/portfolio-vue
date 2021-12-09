@@ -22,33 +22,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+ $colorsText: #ffffff;
   .card{
-        color: #fff;
+        color: rgb(184, 184, 184);
         font-size: 1.5rem;
         padding: 1.5rem;
         width: 40rem;
         height: 18rem;
         border-radius: 1rem;
-        background-color: #212121;
+        background-color: #010101;
         transition: .3s ease-out;
         a {
           text-decoration: none;
-          color: #554BFF;
+          color: $colorsText;
         }
 
         &:hover{
-          transform: scale(1.1);
+          -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.5); 
+          box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0.5);
         }
     }
 
-    
+    @media (max-width: 1220px) {
+      .card{
+        font-size: 1.2rem;
+        padding: 1.2rem;
+        width: 30rem;
+        height: 18rem;
+      }
+    }
     
 
     @media (max-width: 830px) {
       .card{
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 1.2rem;
-        width: 15rem;
+        width: 20rem;
         height: 18rem;
       }
     }

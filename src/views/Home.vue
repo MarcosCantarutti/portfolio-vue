@@ -37,10 +37,11 @@ export default {
 
 <style lang="scss" scoped>
 
- 
+ $colorsText: #b8b6b6;
   .about {
     color: #fff;
-    width: 100%;
+    width: 100vw;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,82 +50,56 @@ export default {
   
 
   .container-about {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8) ), url(../.././public/img/bg-home.jpg) center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../.././public/img/bg-home-white.jpg) center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .container-text {
     display: flex;
-    width: 50%;
-    height: 100%;
-    justify-content: left;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 2rem;
-    margin: 12rem 5rem;
-
-    h2 {
-      font-size: 3rem;
-      color: #554BFF;
-    }
-
-    p {
-      font-size: 2rem;
-      text-align: left;
-      letter-spacing: 0.1rem;
-    }
-
-  }
-
-  @media (max-width: 830px) {
-  .about {
-    color: #fff;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-  }
-
-  
-
-  .container-about {
-    width: 100vw;
-    height: 90vh; 
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../.././public/img/bg-home.jpg) center;
-    
-}
-
-.container-text {
-    display: flex;
     width: 80%;
-    height: 80%;
+    height: auto;
     justify-content: left;
     align-items: flex-start;
     flex-direction: column;
-    gap: 2rem;
-    margin: 5rem 5rem;
+    gap: 1rem;
+    margin: 10rem 5rem;
 
     h2 {
-      font-size: 2rem;
-      color: #554BFF;
+      font-size: 2.5rem;
+      color: $colorsText;
     }
 
     p {
-      font-size: 1.4rem;
+      font-size: 2rem;
       text-align: left;
       letter-spacing: 0.1rem;
+      color: #fff;
     }
 
-  }    
+  }
 
+  @media (max-width: 800px) {
 
-}
+    .container-text {
+      margin: 5rem 3rem;
+      p{
+        font-size: 1.6rem;
+      }
+    }
+  }
 
+  @media (max-width: 450px) {
+
+    .container-text {
+      margin: 5rem 3rem;
+      p{
+        font-size: 1.4rem;
+      }
+    }
+  }
   
-  
+
 </style>

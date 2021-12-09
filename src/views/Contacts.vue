@@ -2,7 +2,7 @@
   <section id="contacts">
       <div class="contacts-container">
         <div>
-          <img src="../.././public/img/bg-contact.svg" alt="imagem de email de contato">
+          <img src="../.././public/img/bg-contact-white.svg" alt="imagem de email de contato">
         </div>
 
         <h1>Fale Comigo!</h1>
@@ -49,6 +49,7 @@ export default {
 
   #contacts{
     width: 100%;
+    height: 100%;
     margin: auto 0;
     text-align: center;
     display: flex;
@@ -58,14 +59,14 @@ export default {
     
 
     .contacts-container{
-      background-color: #212121;
+      background-color: #010101;
       padding: 5rem;
       width: 40rem;
       height: 60rem;
       border-radius: 1rem;
       margin: 0 auto;
-      -webkit-box-shadow: inset -1px 3px 8px 5px #554BFF, 2px 5px 16px 0px #554BFF, 1px 1px 1px 1px #554BFF; 
-      box-shadow: inset -1px 3px 8px 5px #554BFF, 2px 5px 16px 0px #554BFF, 1px 1px 1px 1px #554BFF;
+      -webkit-box-shadow: inset -1px 3px 8px 5px #000, 2px 5px 16px 0px #000, 1px 1px 1px 1px #000; 
+      box-shadow: inset -1px 3px 8px 5px #000, 2px 5px 16px 0px #000, 1px 1px 1px 1px #000;
       ul,li {
         list-style: none;
 
@@ -83,7 +84,7 @@ export default {
         margin-right: 1rem;
         transition: .3s ease-out;
         &:hover{
-          color: #554BFF;
+          color: #ffffff;
           transform: translate(0, -5px);
 
         }
@@ -102,9 +103,10 @@ export default {
       }
 
       button {
+        
         display: block;
         text-align: left;
-        background-color: #554BFF;
+        background-color: #ffffff;
         margin: 5rem auto;
         padding: 2rem;
         font-size: 2rem;
@@ -112,10 +114,13 @@ export default {
         border-radius: 1rem;
         transition: .3s ease-out;
         font-weight: bold;
+        a{
+          color: #010101;
+          transition: .3s ease-out;
+        }
         &:hover{
-          background-color: #fff;
           a{
-          color: #212121;
+          color: #686565;
           }
           transform: scale(1.1)
         }

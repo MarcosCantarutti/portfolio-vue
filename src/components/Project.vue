@@ -1,9 +1,9 @@
 <template>    
     <div v-if="isLoading === true">
-        Carregando...
+        Buscando dados do github...
     </div>
     <div v-if="hasError === true">
-        Falha
+        Não foi possivel buscar os dados no github...
     </div>
     <div v-else>
     <div class="grid">
@@ -72,17 +72,27 @@ export default {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
     grid-template-rows: auto;
-    grid-gap: 2rem;
+    grid-gap: 5rem;
     padding: 5rem;
   }
 
+  @media (max-width: 1220px) {
+    
+    .grid{
+     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+    padding: 2rem;
+    margin: 0 auto;
+    }
+  }
     @media (max-width: 900px) {
     
     .grid{
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 2rem;
-    padding: 1rem;
+    padding: 2rem;
     margin: 0 auto;
     }
     

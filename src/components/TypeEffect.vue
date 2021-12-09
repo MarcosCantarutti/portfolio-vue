@@ -74,9 +74,7 @@ import { setTimeout } from 'timers';
     font-weight: bold;
     span.typed-text {
     
-    background: -webkit-linear-gradient(#2E34EA, #554BFF);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #ebe6e6;
     }
     span.cursor {
       display: inline-block;

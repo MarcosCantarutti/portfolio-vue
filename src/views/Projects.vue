@@ -27,7 +27,7 @@ export default {
 
   h1 {
     font-size: 3rem;
-    background: -webkit-linear-gradient(#2E34EA, #554BFF);
+    background: -webkit-linear-gradient(#000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 1rem auto 0;
@@ -36,8 +36,17 @@ export default {
  
   #projects {
     width: 100%;
-    background-color: #181818;
+    height: 100%;
+    background-color: #F1F1E7;
    
+  }
+
+  @media (max-width: 1220px) {
+    #projects {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
    @media (max-width: 800px) {
@@ -45,13 +54,13 @@ export default {
        margin: 0.5 auto 0;
      }
     #projects {
-      height: 100%;
+    height: 100%;
     margin: 0 auto;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
   }
 
      h1 {
